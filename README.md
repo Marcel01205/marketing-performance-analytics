@@ -8,7 +8,7 @@ between platform and analytics reporting.
 **Scope:** 6,624 records, 24 campaigns, four advertising platforms.
 
 [Explore the interactive dashboard](https://datastudio.google.com/s/nxXR821mqs4)
- · [View the analysis notebook](notebooks/marketing_performance_analysis.ipynb)
+ · [View the analysis notebook](https://github.com/Marcel01205/marketing-performance-analytics/blob/main/notebooks/Marketing_performance_portfolio_June%E2%80%93August_2026_final_2.ipynb)
 
 ![Performance overview](images/performance_overview.png)
 
