@@ -1,4 +1,4 @@
-# Marketing Performance and Measurement Analysis
+# Marketing Performance and Measurement Analysis.
 
 An end-to-end marketing analytics project using Python, DuckDB SQL and
 Looker Studio to compare campaign performance and investigate differences
