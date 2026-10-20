@@ -9,7 +9,7 @@ between platform and analytics reporting.
 
 [Explore the interactive dashboard](https://datastudio.google.com/s/nxXR821mqs4)
  · [View the analysis notebook](https://github.com/Marcel01205/marketing-performance-analytics/blob/main/notebooks/Marketing_performance_portfolio_June%E2%80%93August_2026_final_2.ipynb)
-
+ · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Marcel01205/marketing-performance-analytics/blob/main/notebooks/Marketing_performance_portfolio_June%E2%80%93August_2026_final_2.ipynb)
 ![Performance overview](images/performance_overview.png)
 
 ## Business questions
@@ -119,14 +119,22 @@ Explore weekly reporting gaps and compare source-specific campaign results.
 
 ## How to run
 
-1. Download the analysis dataset from `data/`.
-2. Open the notebook in Google Colab.
-3. Upload the dataset to your Google Drive.
-4. Update `data_path` in the loading cell to match its location.
-5. Run the notebook from top to bottom and authorise the Drive mount.
+To read the analysis and saved outputs, open the notebook on GitHub.
 
-The notebook installs DuckDB, loads the data with pandas and exports
-the dashboard CSV to the same folder as the input dataset.
+To execute it:
+1. Click **Open in Colab**.
+2. Sign in to Google if prompted and connect to a runtime.
+3. Select **Runtime → Run all**.
+
+Colab may display a warning because the notebook comes from GitHub.
+Review the code before proceeding.
+
+The notebook loads the CSV directly from this public repository.
+No Google Drive setup or personal file-path changes are required.
+
+The dashboard CSV is saved to
+`/content/marketing_dashboard_jun_aug_2026.csv`
+in the temporary Colab session.
 
 ## Limitations
 
